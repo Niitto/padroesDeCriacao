@@ -10,13 +10,13 @@ public class Conta{
     private Categoria categoriaInicial;
 
     public static class Builder{
-            private long numero;
-            private String nomeCorrentista;
-            private int saldoLivreInicial;
-            private int salAplicacaoInicial;
-            private double taxaRemuneracao;
-            private double taxaSaldoNegativo;
-            private Categoria categoriaInicial;  
+            private long numero = 210000;
+            private String nomeCorrentista = "Cléberson Holandês";
+            private int saldoLivreInicial = 2000;
+            private int salAplicacaoInicial = 1000;
+            private double taxaRemuneracao = 10.000;
+            private double taxaSaldoNegativo = 5.000;
+            private Categoria categoriaInicial = Categoria.NORMAL;  
 
         public Builder() {
         }
